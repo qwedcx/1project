@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  /* 1rem = 1.2em*/
+}
+
+body {
+  background-color: rgb(236, 221, 202);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+header {
+  background-color: rgb(0, 115, 230);
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: rgb(128, 122, 122);
+  padding: 10px 50px;
+}
+
+.about {
+  background-color: rgb(236, 221, 202);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(49, 94, 47, 0.78);
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+.articles {
+  padding: 20px 50px;
+}
+
+.content {
+  padding: 20px 50px;
+}
+
+/*
+
+1em - размер шрифта в браузере по умолчанию
+средний - 16px
+
+1em = 16px
+
+1rem - размер шрифта, который задан в теге html
+*/
+
+
+a:link {
+  color: rgb(167, 233, 93);
+  text-decoration: none;
+}
+a:visited{
+  color: rgb(19, 2, 255);
+}
+footer a:visited {
+  color:rgb(148, 107, 26);
+}
+a:focus {
+  color:blue;
+}
+ a:hover {
+  color:green;
+  text-decoration: underline;
+}
+a:active {
+  color:blueviolet;
+}
+
+.page-list li:nth-child(odd) {
+  background-color: rgb(190, 188, 151);
+}
+
+h2::after {
+  content: "new";
+  font-size: 10px; 
+  margin-left: 10px;
+  color: rgb(118, 176, 199);
+}
+
+.spaced-text::first-line {
+  letter-spacing: 3px;
+}
+
+.avatar {
+  max-width: 100%;
+    border: 3px solid rgba(37, 37, 216, 0.623);
+    border-radius: 3px;
+}
+
+table {
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid rgba(37, 37, 216, 0.623);
+}
+
+caption {
+  margin-bottom: 30px;
+  color: rgb(0, 51, 102);
+}
+
+th {
+  background-color: rgb(0, 115, 230);
+  color: white;
+  padding: 6px;
+}
+
+td {
+  padding: 10px;
+}
