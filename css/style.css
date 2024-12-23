@@ -134,3 +134,24 @@ th {
 td {
   padding: 10px;
 }
+
+
+
+
+
+form label {
+  display: block;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+form button {
+  background-color: rgb(0, 115, 230);
+  color: white;
+  padding: 10px 10px;
+}
